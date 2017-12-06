@@ -1,0 +1,10 @@
+ <mvc:View
+	controllerName="c.login"
+	xmlns="sap.ui.table"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:u="sap.ui.unified"
+	xmlns:c="sap.ui.core"
+	xmlns:l="sap.ui.layout"
+	xmlns:commons="sap.ui.commons"
+	xmlns:m="sap.m">
+	</mvc:View>

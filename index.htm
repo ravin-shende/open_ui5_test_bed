@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<title>My Open UI5 Test Bed</title>
+	<script src="./resources/sap-ui-core.js"
+		id="sap-ui-bootstrap"
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='{ "v" : "./v", "c" : "./c" }'>
+	</script>
+	<script type="text/javascript">
+	var shell = new sap.m.Shell("shell", { appWidthLimited: false});
+	var app = new sap.m.App("app");
+	var vLogin = new sap.ui.view({id: "vLogin", viewName: "v.login", type:sap.ui.core.mvc.ViewType.XML});
+	app.addPage(vLogin);
+	shell.setApp(app);
+	shell.placeAt("content");
+	</script>
+</head>
+<body class="sapUiBody" id="content">
+</body>
+</html>
